@@ -1,0 +1,15 @@
+{
+  "name": "group-payments",
+  "version": "0.1.2",
+  "description": "Group Pay API client for Node.js (zero dependencies)",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": { ".": { "types": "./src/index.d.ts", "default": "./src/index.js" } },
+  "files": ["src"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "vitest run" },
+  "devDependencies": { "vitest": "^3.2.0" },
+  "repository": { "type": "git", "url": "git+https://github.com/Group-Payments/sdk-node.git" },
+  "license": "MIT"
+}
